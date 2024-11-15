@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="new.js"></script>
 </head>
 <body>
     <div class="div1">
@@ -179,32 +180,6 @@
                     <div class="sw-dot" onclick="funct2()" id="dot2"></div>
                     <div class="sw-dot" onclick="funct3()" id="dot3"></div>
                 </div>
-                <script>
-                    function funct1(){
-                        document.getElementById("b1").style.display="block";
-                        document.getElementById("b3").style.display="none";
-                        document.getElementById("b2").style.display="none";
-                        document.getElementById("dot1").style.backgroundColor="lightblue";
-                        document.getElementById("dot2").style.backgroundColor="aqua";
-                        document.getElementById("dot3").style.backgroundColor="aqua"
-                     }
-                    function funct2(){
-                        document.getElementById("b2").style.display="block";
-                        document.getElementById("b1").style.display="none";
-                        document.getElementById("b3").style.display="none";
-                        document.getElementById("dot2").style.backgroundColor="lightblue";
-                        document.getElementById("dot3").style.backgroundColor="aqua";
-                        document.getElementById("dot1").style.backgroundColor="aqua"
-                    }
-                    function funct3(){
-                        document.getElementById("b3").style.display="block"
-                        document.getElementById("b1").style.display="none"
-                        document.getElementById("b2").style.display="none";
-                        document.getElementById("dot3").style.backgroundColor="lightblue";
-                        document.getElementById("dot2").style.backgroundColor="aqua";
-                        document.getElementById("dot1").style.backgroundColor="aqua"
-                    }
-                </script>
             </div>
         </div>
     </div>
@@ -237,52 +212,110 @@
                   <img class="arrow" style="rotate: 180deg;" src="left.png"/>
                 </button>
             </div>
-            <script>
-                function foward(){
-                    document.getElementById("sr1").style.display="none";
-                    document.getElementById("sr7").style.display="block";
-                    document.getElementById("story-button1").style.display="block"}
-                function back(){
-                    document.getElementById("sr1").style.display="block";
-                    document.getElementById("sr7").style.display="none"
-                }
-            </script>
+          
         </div>
         <div class="news">
             <div class="daily-news">
                 <div class="dn-top">
-                    <div class="today">
+                    <div class="today" id="today">
                         <p>Өнөөдөр</p>
                         <img/>
                     </div>
                     <div class="days-container">
-                        <div>
-                            <div></div>
-                            <p></p>
+                        <div class="day-div" id="day1" onclick="day1()">
+                            <div class="day-button" id="day1button"></div>
+                            <p>11 сарын 15</p>
                         </div>
-                        <div>
-                            <div></div>
-                            <p></p>
+                        <div class="day-div" id="day2" onclick="day2()">
+                            <div class="day-button" id="day2button"></div>
+                            <p>11 сарын 14</p>
                         </div>
-                        <div>
-                            <div></div>
-                            <p></p>
+                        <div class="day-div" id="day3" onclick="day3()">
+                            <div class="day-button"></div>
+                            <p>11 сарын 13</p>
                         </div>
-                        <div>
-                            <div></div>
-                            <p></p>
+                        <div class="day-div" id="day4" onclick="day4()">
+                            <div class="day-button"></div>
+                            <p>11 сарын 12</p>
                         </div>
-                        <div>
-                            <div></div>
-                            <p></p>
+                        <div class="day-div" id="day5" onclick="day5()">
+                            <div class="day-button"></div>
+                            <p>11 сарын 11</p>
                         </div>
+                        <div class="day-div" id="day6" onclick="day6()">
+                            <div class="day-button"></div>
+                            <p>11 сарын 10</p>
+                        </div>
+                        
                         <div>
                             <div></div>
-                            <p></p>
+                            <p>...</p>
                         </div>
                     </div>
                 </div>
-                <div></div>
+                <div>
+                    <div>
+                        <div>
+                            <img/>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div>
+                            <img/>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div>
+                            <img/>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div>
+                            <img/>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div>
+                            <img/>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div>
+                            <img/>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div>
+                            <img/>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div>
+                            <img/>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div>
+                            <img/>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div>
+                            <img/>
+                        </div>
+                        <div></div>
+                    </div>
+                   
+                </div>
             </div>
             <div class="special-news"></div>
         </div>

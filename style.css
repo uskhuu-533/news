@@ -1,6 +1,3 @@
-body{
-
-}
 .div1{
     margin:0;
     height:900px;
@@ -262,7 +259,6 @@ h1{
     width:fit-content;
     height: 300px;
     max-width:265px;
-    min-widt: 265px;
     border-radius: 10px;
 }
 .sw1{
@@ -389,7 +385,7 @@ h1{
 }
 .dn-top{
     width:100%;
-    height:300px;
+    height:100px;
 }
 .today{
     display: flex;
@@ -397,13 +393,43 @@ h1{
     align-items: center;
     width:100%;
     height: 50px;
+    color:blue;
+    font-size: 130%;
 }
-.days{
+.days-container{
     display: flex;
-    justify-content: space-between;
+    gap:2%;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 50px;
+}
+.day-div{
+    width:18%;
+    height:50px;
+    color:grey;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.day-button{
+    width: 100%;
+    height: 6px;
+    background-color:grey;
+    border-radius: 5px;
+}
+#day1{
+    color:blue
+}
+#day1button{
+    background-color:blue
+}
+.day-div:hover{
+    color:blue;
+    margin-bottom: 5px;
+}
+.day-div:hover .day-button{
+    background-color: blue;
 }
 .special-news{
     width:30%;
