@@ -33,14 +33,14 @@ function back(){
 function day1(){
     document.getElementById("day2").style.color="grey";
     document.getElementById("day2button").style.backgroundColor="grey";
-    document.getElementById("day1button").style.backgroundColor="blue";
-    document.getElementById("day1").style.color="blue";
-    document.getElementById("today").style.color="blue"
+    document.getElementById("day1button").style.backgroundColor="rgba(0,211,255,1)";
+    document.getElementById("day1").style.color="rgba(0,211,255,1)";
+    document.getElementById("today").style.color="rgba(0,211,255,1)"
 }
 
 function day2(){
     document.getElementById("day1").style.color="grey";
     document.getElementById("day1button").style.backgroundColor="grey";
-    document.getElementById("day2").style.color="blue";
-    document.getElementById("day2button").style.backgroundColor="blue"
+    document.getElementById("day2").style.color="rgba(0,211,255,1)";
+    document.getElementById("day2button").style.backgroundColor="rgba(0,211,255,1)"
 }
