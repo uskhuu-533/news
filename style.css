@@ -16,7 +16,7 @@ body{
 }
 .div2{
     margin:0;
-    height:8000px;
+    height:5900px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,22 +24,23 @@ body{
 h1{
     margin:0
 }
-#header{
+.header{
     height:110px;
     width:100%;
     max-width:1100px;
     display:flex;
     align-items:center;
-
 }
-#head1{
-    width:700px;
+
+.head1{
+    width:800px;
     height:90px;
     display:flex;
     align-items: center;
-    gap:30px;
+    gap:40px;
     line-height: 40px;
     flex-wrap: wrap;
+    font-size: 16px;
 }
 .dropbtn{
     border:none;
@@ -101,8 +102,8 @@ h1{
 
 }
 
-#logo{
-    width:130px;
+.logo{
+    width:120px;
     height:40px
 }
 .p1{
@@ -308,24 +309,35 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
     margin-top:30px
 
 }
+.ory{
+    width:15.7%;
+    height: 235px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.story-img{
+    width:100%;
+    height:fit-content;
+    border-radius: 10px;
+}
 .border-story{
     width:15.7%;
     height: 235px;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-}
-.story-img{
-    width:100%;
-    height: 235px;
-    border-radius: 10px;
+    display: flex;
+    align-items: center;
 }
 .G-logo{
     width:30px;
     height: 30px;
     position: absolute;
-    margin-top:10px;
-    margin-left: -160px;
+    margin-top:-105%;
+    margin-left:5%;
 }
 .story-img:hover{
     transform: scale(1.1);
@@ -555,7 +567,7 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
 }
 .more-div{
     width: 100%;
-    max-width: 690px;
+    width: 690px;
     padding:20px;
     display: flex;
     justify-content: center;
@@ -758,15 +770,14 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
 }
 .int-news-div{
     width: 100%;
-    height: 500px;
-    max-height: 500px;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     flex-wrap:nowrap;
 }
 .int-news1{
     width: 49.5%;
-    max-width:542.5px;
+    width:542.5px;
     height:500px;
     overflow: hidden;
     border-radius: 5px;
@@ -777,7 +788,7 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
 }
 .int-news-div1{
     width: 50%;
-    max-width:542.5px;
+    width:542.5px;
     height:500px;
     flex-direction: column;    
     display: flex;
@@ -785,7 +796,7 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
 }
 .int-news-div2{
     width:100%;
-    max-width:542.5px;
+    width:542.5px;
     height: 243px;
     display: flex;
     justify-content: space-between;
@@ -799,7 +810,7 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
 .int-news2{
     height: 243px;
     width:100%;
-    max-width: 263.75px;
+    width: 263.75px;
     overflow: hidden;
     border-radius: 5px;
     position: relative;
@@ -811,6 +822,7 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
     width: fit-content;
     height: 100%;
     transition-duration: 0.5s;
+    border-radius: 5px;
 }
 .img-int3{
     width:165.9%;
@@ -886,7 +898,6 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
 }
 .gogo-style{
     width: 100%;
-    max-width: 1100px;
     height: fit-content;
     display: flex;
     justify-content: space-between;
@@ -895,11 +906,12 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
 }
 .life-style{
     width: 100%;
-    max-width:24%;
+    width:24%;
     height:360px;
     border-radius: 5px;
     border-style: solid ;
-    border-color: #f8f8f8;
+    border-color: rgb(0, 0, 0, 0.1);
+    position: relative;
 
 }
 .style-img{
@@ -922,7 +934,7 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
 .style-txt{
     width: 94%;
     height:100px;
-    font-size: 17.5px;
+    font-size: 17px;
 }
 .date-style-div{
     width: 100%;
@@ -937,7 +949,7 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
     height:30px;
     border-top-style:solid ;
     border-top-width:1px ;
-    border-top-color: #f8f8f8;
+    border-top-color: rgb(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
 }
@@ -986,16 +998,185 @@ background: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,166,0,1) 100%)
     border-radius: 5px;
 }
 .tech-img{
-    width: fit-content;
+    width: 100%;
     height: 100%;
     transition-duration: 0.5s;
 }
 .tech-txt-div{
     width: 100%;
     height: 130px;
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
 .tech-img-div:hover .hover-ef3{
     display: block;
+}
+.tech-img-div:hover .tech-img{
+    transform: scale(1.1);
+}
+.tech-txt-div:hover{
+    background-color: #f8f8f8;
+}
+.gogo-comic{
+    height: 330px;
+    width: 49%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0, 0.1);
+}
+.comic-img-div{
+    height: 200px;
+    width:100%;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    justify-content: center;
+}
+.comic-img-div:hover .style-img1{
+    transform: scale(1.1);
+}
+.comic-img-div:hover .hover-ef3{
+    display: block;
+}
+.watch-main-div{
+    width:100%;
+    height:770px;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+.watch-div{
+    width: 100%;
+    max-width: 1100px;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+}
+.watch1{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.watch-item{
+    width:24%;
+    color:#ffffffcc
+}
+.watch-img-div{
+    width:100%;
+    height:170px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    position: relative;
+}
+.watch-img{
+    width: fit-content;
+    height:100%
+}
+.watch-txt{
+    margin: 0;
+    padding-top:10px;
+    font-size: 95%;
+}
+.watch-img-div:hover .hover-ef3{
+    display: block;
+}
+.watch-img-div:hover .watch-img{
+    transform: scale(1.1);
+}
+.img-icon-video{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    margin-left:-84%;
+}
+.footer{
+    width: 100vw;
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.foot1{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(0, 0, 0, 0.1) ;
+    height: 120px;
+
+}
+.links{
+    width:70%;
+    height:65px;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.links1{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-size:15px;
+    padding: 0;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 0px;
+}
+.about1{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.social{
+    width:30%;
+    height:60px;
+    display: flex;
+    justify-content: end;
+    gap:10px;
+    align-items: center;
+}
+.logo1{
+    width:20px;
+    height: 20px;
+}
+@media only screen and (max-width:960px){
+   .div1 {display: none;}
+   #sr4 {display: none;}
+   #sr5 {display: none;}
+   #sr6 {display: none;}
+   .border-story{width: 32.5%;}
+   .special-news{display: none;}
+   .story-img{width:100%;height: fit-content;}
+   .G-logo{margin-top:-60%;margin-left: 4%;}
+   .dn-top{display: none;}
+   .news{width: 96vw;}
+   .button-div{display: none;}
+   .story-main{width: 96vw;}
+   .news1 {width: 96vw;font-size:90% ;}
+   .more-div{width:96vw}
+   .int-news-div{flex-direction: column;align-items: center;width: 100vw;gap:15px;}
+   .int-news-div1{width:98vw;}
+   .int-news-div2{width: 96vw}
+   .int-news2{width:47.5vw;}
+   .img-int2{width:100%;height:fit-content;}
+   .interview{margin-top: -10px;}
+   .gogo-style-div{width:96vw;}
+   #a960{display: none;}
+   .life-style{width: 32%;}
+   .gogo-style{width: 96vw;}
 }
